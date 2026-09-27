@@ -6,7 +6,6 @@
 
 TIM_HandleTypeDef htim1;   /* defined here, declared extern in main.h */
 
-/* ------------------------------------------------------------------ helpers */
 static inline void dir_forward(void)
 {
     HAL_GPIO_WritePin(MOTOR_IN1_PORT, MOTOR_IN1_PIN, GPIO_PIN_SET);
